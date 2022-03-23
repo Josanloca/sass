@@ -1,0 +1,16 @@
+@import "variables";
+$fondo: #ff0000;
+$primer: #ce5555;
+$pcolor: blue;
+
+body{
+    background-color: $fondo;
+    h1{
+        background-color: $primer;
+        color: $fondo;
+    }
+
+    p{
+        color: $pcolor;
+    }
+}
